@@ -5,6 +5,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.Mod;
 
+import java.util.logging.Logger;
+
 @Mod(
         modid = Main.MOD_ID,
         name = Main.MOD_NAME,
@@ -21,13 +23,15 @@ public class Main {
      */
     @Mod.Instance(MOD_ID)
     public static Main INSTANCE;
-
+    private static Logger logger;
     /**
      * This is the first initialization event. Register tile entities here.
      * The registry events below will have fired prior to entry to this method.
      */
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event) {
+
+
 
     }
 
@@ -36,7 +40,7 @@ public class Main {
      */
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        logger.info("VimCraft - Init");
     }
 
     /**
@@ -44,6 +48,6 @@ public class Main {
      */
     @Mod.EventHandler
     public void postinit(FMLPostInitializationEvent event) {
-
+        logger.info("VimCraft - Postinit");
     }
 }
