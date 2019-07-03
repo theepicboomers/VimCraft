@@ -30,8 +30,7 @@ public class Main {
      */
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event) {
-
-
+        logger.info("VimCraft - PreInit");
 
     }
 
