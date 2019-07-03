@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "VimCraft",
+    "name": "VimCraft",
+    "description": "injection point type '%s'",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "authorList": [
+      "R3ido101",
+      "mrb0nk500"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

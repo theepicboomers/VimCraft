@@ -1,0 +1,65 @@
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "me\r3ido101\Core\Utils.java" md5: baee18429dc689f3e1e348ec570b3bcc
+@|me\r3ido101\Core\Utils.java|8|24|me.r3ido101.Core|package|me.r3ido101.Core|(file)
+Class Start: me.r3ido101.Core.Utils
+   @|me\r3ido101\Core\Utils.java|40|45|Utils|class|me.r3ido101.Core.Utils
+   @|me\r3ido101\Core\Utils.java|72|78|String|class|java.lang.String
+   @|me\r3ido101\Core\Utils.java|72|78|String|class|java.lang.String
+   @|me\r3ido101\Core\Utils.java|79|85|MOD_ID|field|me.r3ido101.Core.Utils|MOD_ID|
+   @|me\r3ido101\Core\Utils.java|124|130|String|class|java.lang.String
+   @|me\r3ido101\Core\Utils.java|124|130|String|class|java.lang.String
+   @|me\r3ido101\Core\Utils.java|131|139|MOD_NAME|field|me.r3ido101.Core.Utils|MOD_NAME|
+   @|me\r3ido101\Core\Utils.java|178|184|String|class|java.lang.String
+   @|me\r3ido101\Core\Utils.java|178|184|String|class|java.lang.String
+   @|me\r3ido101\Core\Utils.java|185|192|VERSION|field|me.r3ido101.Core.Utils|VERSION|
+Class End  : me.r3ido101.Core.Utils
+endProcessing "me\r3ido101\Core\Utils.java"
+
+startProcessing "me\r3ido101\Main.java" md5: 9b6baf2ffcad8369594e7fab6ffe231c
+@|me\r3ido101\Main.java|8|19|me.r3ido101|package|me.r3ido101|(file)
+Class Start: me.r3ido101.Main
+   @|me\r3ido101\Main.java|339|342|Mod|class|net.minecraftforge.fml.common.Mod
+   @|me\r3ido101\Main.java|352|357|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|me\r3ido101\Main.java|360|365|Utils|class|me.r3ido101.Core.Utils
+   @|me\r3ido101\Main.java|366|372|MOD_ID|field|me.r3ido101.Core.Utils|MOD_ID
+   @|me\r3ido101\Main.java|382|386|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|me\r3ido101\Main.java|389|394|Utils|class|me.r3ido101.Core.Utils
+   @|me\r3ido101\Main.java|395|403|MOD_NAME|field|me.r3ido101.Core.Utils|MOD_NAME
+   @|me\r3ido101\Main.java|413|420|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|me\r3ido101\Main.java|423|428|Utils|class|me.r3ido101.Core.Utils
+   @|me\r3ido101\Main.java|429|436|VERSION|field|me.r3ido101.Core.Utils|VERSION
+   @|me\r3ido101\Main.java|452|456|Main|class|me.r3ido101.Main
+   @|me\r3ido101\Main.java|511|517|Logger|class|java.util.logging.Logger
+   @|me\r3ido101\Main.java|465|477|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|me\r3ido101\Main.java|478|483|Utils|class|me.r3ido101.Core.Utils
+   @|me\r3ido101\Main.java|484|490|MOD_ID|field|me.r3ido101.Core.Utils|MOD_ID
+   @|me\r3ido101\Main.java|511|517|Logger|class|java.util.logging.Logger
+   @|me\r3ido101\Main.java|518|524|logger|field|me.r3ido101.Main|logger|
+   Method Start: preinit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me\r3ido101\Main.java|598|603|event|param|me.r3ido101.Main|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|me\r3ido101\Main.java|531|547|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|me\r3ido101\Main.java|564|571|preinit|method|me.r3ido101.Main|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me\r3ido101\Main.java|572|597|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|me\r3ido101\Main.java|615|621|logger|field|me.r3ido101.Main|logger
+      @|me\r3ido101\Main.java|622|626|info|method|java.util.logging.Logger|info|(Ljava/lang/String;)V
+   Method End: preinit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me\r3ido101\Main.java|724|729|event|param|me.r3ido101.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|me\r3ido101\Main.java|663|679|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|me\r3ido101\Main.java|696|700|init|method|me.r3ido101.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me\r3ido101\Main.java|701|723|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|me\r3ido101\Main.java|741|747|logger|field|me.r3ido101.Main|logger
+      @|me\r3ido101\Main.java|748|752|info|method|java.util.logging.Logger|info|(Ljava/lang/String;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postinit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|me\r3ido101\Main.java|854|859|event|param|me.r3ido101.Main|postinit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|me\r3ido101\Main.java|785|801|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|me\r3ido101\Main.java|818|826|postinit|method|me.r3ido101.Main|postinit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|me\r3ido101\Main.java|827|853|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|me\r3ido101\Main.java|871|877|logger|field|me.r3ido101.Main|logger
+      @|me\r3ido101\Main.java|878|882|info|method|java.util.logging.Logger|info|(Ljava/lang/String;)V
+   Method End: postinit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : me.r3ido101.Main
+endProcessing "me\r3ido101\Main.java"
+
