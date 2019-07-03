@@ -22,7 +22,8 @@ public class Modes {
     @SubscribeEvent
     public void test(GuiScreenEvent.KeyboardInputEvent e)
     {
-        if(//test)
+        //checkkeyhere
+        if()
         {
             if (Minecraft.getMinecraft().currentScreen  instanceof GuiChat)
             {
